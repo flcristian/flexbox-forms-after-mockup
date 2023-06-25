@@ -1,0 +1,242 @@
+*{
+    font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+h1,h2,h3{
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #faf6ed;
+}
+
+label{
+    color: rgb(77, 63, 63);
+}
+
+/* HEADER */
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    background-color: #d8735d;
+    padding: 20px;
+}
+
+.header-text{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.63);
+    font-size: smaller;
+    margin : 0;
+}
+
+.header-title{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.63);
+    margin: 0;
+}
+
+/* FORM */
+
+.form-container{
+    margin: 40px 33px 33px 33px;
+}
+
+/* REQUIRED FIELD */
+
+.form-required-field{
+    margin-bottom: 30px;
+}
+
+/* INFORMATION SECTION */
+
+.information-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.information-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+/* BASIC INFO */
+
+.basic-info-item > input{
+    outline: none;
+    border: 1px rgb(175, 166, 155) solid;
+    width: 280px;
+    height: 40px;
+    padding: 0;
+}
+
+.basic-info-title{
+    margin: 0;
+}
+
+.basic-info-name-item{
+    display: block;
+}
+
+.basic-info-name-label{
+    margin-bottom: 10px;
+}
+
+.basic-info-email-item{
+    display: block;
+}
+
+.basic-info-email-label{
+    margin-bottom: 10px;
+}
+
+.job-role-label{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.job-role-select{
+    outline: none;
+    border: 1px rgb(175, 166, 155) solid;
+    height: 43px;
+    width: 280px;
+}
+
+/* T-SHIRT */
+
+.information-right{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.tshirt-info-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 305px;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.tshirt-info-title{
+    width: 100%;
+    margin: 0;
+}
+
+.tshirt-info-detail{
+    width: 100%;
+}
+
+.tshirt-info-detail > select{
+    outline: none;
+    border: 1px rgb(175, 166, 155) solid;
+    height: 43px;
+}
+
+.tshirt-info-size{
+    width: 25%;
+}
+
+.tshirt-info-design{
+    margin-left: 9px;
+    width: 65%;
+}
+
+.tshirt-info-size-item{
+    display: block;
+}
+
+.tshirt-info-size-label{
+    margin-bottom: 10px;
+}
+
+.tshirt-info-size-select{
+    width: 75px;
+}
+
+.tshirt-info-design-item{
+    display: block;
+}
+
+.tshirt-info-design-label{
+    margin-bottom: 10px;
+}
+
+.tshirt-info-design-select{
+    width: 200px;
+}
+
+.tshirt-info-color-item{
+    display: block;
+}
+
+.tshirt-info-color-label{
+    margin-bottom: 10px;
+}
+
+.tshirt-info-color-select{
+    width: inherit;
+}
+
+.job-role-text{
+    align-self: flex-end;
+    outline: none;
+    border: 1px rgb(175, 166, 155) solid;
+    height: 40px;
+    width: 350px;
+}
+
+/* ACTIVITIES  SECTION */
+
+.activities-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.activities-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activities-item{
+    display: flex;
+    width: 40vw;
+    margin-top: 20px;
+    gap: 10px;
+    border: 1px rgb(175, 166, 155) solid;
+    padding: 10px;
+    background: white;
+}
+
+.activities-item-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+
+.activities-item-button-label{
+    width: 100%;
+}
+
+.activities-item-icon{
+    justify-self: flex-end;
+    height: 30px;
+}
+
+.activities-main-conference{
+    margin-top: 0;
+    width: 100vw;
+}
