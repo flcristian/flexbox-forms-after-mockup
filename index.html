@@ -187,11 +187,70 @@
             </section>
         </section>
 
-        <section class="">
-
+        <section class="payment-container">
+            <secton class="payment-info-container">
+                <h2 class="payment-info-title">Payment Info</h2>
+                <h2 class="payment-info-total">Total: 0$</h2>
+            </secton>
+            <section class="payment-methods-container">
+                <section class="payment-top-container">
+                    <section class="payment-method-selection-container">
+                        <section class="payment-method-selection-item payment-method-selection">
+                            <label class="method-selection-item card-number-label" for="email">I'm going to pay with: ⋆</label>
+                            <select class="method-selection-item method-selection" id="color" name="color">
+                                <option value="none">Select Payment Method</option>
+                                <option value="credit-card">Credit Card</option>
+                                <option value="debit-card">Debit Card</option>
+                                <option value="paypal">PayPal</option>
+                                <option value="bitcoin">Bitcoin</option>
+                            </select> 
+                        </section>
+                        <section class="payment-method-selection-item card-number-container">
+                            <label class="card-number-item card-number-label" for="email">Card Number: </label>
+                            <input class="card-number-item card-number" type="text" id="email" name="email">
+                        </section>
+                    </section>
+                    <section class="card-info-container">
+                        <section class="expiration-container">
+                            <section class="expiration-container-item expiration-date-container">
+                                <label class="expiration-item expiration-date-label" for="email">Expiration Date:</label>
+                                <select class="expiration-item expiration-date" id="color" name="color">
+                                    <option value="none">Select Date</option>
+                                </select> 
+                            </section>
+                            <section class="expiration-container-item expiration-year-container">
+                                <label class="expiration-item expiration-year-label" for="email">Expiration Year:</label>
+                                <select class="expiration-item expiration-year" id="color" name="color">
+                                    <option value="none">Select Year</option>
+                                </select> 
+                            </section>
+                        </section>
+                        <section class="zip-cvv-container">
+                            <section class="zip-cvv-item zip-container">
+                                <label class="zip-item zip-label" for="email">Zip Code: </label>
+                                <input class="zip-item zip" type="text" id="email" name="email">
+                            </section>
+                            <section class="zip-cvv-item cvv-container">
+                                <label class="cvv-item cvv-label" for="email">CVV: </label>
+                                <input class="cvv-item cvv" type="text" id="email" name="email">
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section class="payment-bottom-container">
+                    <article class="paypal-container">
+                        <h3 class="paypal-title">PayPal</h3>
+                        <p class="paypal-text">If you selected PayPal option we'll take you to PayPal's site to set up your billing information, when you click "Register" below.</p>
+                    </article>
+                    <article class="bitcoin-container">
+                        <h3 class="bitcoin-title">Bitcoin</h3>
+                        <p class="bitcoin-text">If you selected Bitcoin option we'll take you to Coinbase site to set up your billing information, when you click "Register" below.</p>
+                    </article>
+                </section>
+            </section>
         </section>
+
+        <button class="register">Register</button>
     </section>
-
-
 </body>
 </html>

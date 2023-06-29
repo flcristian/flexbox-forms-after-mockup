@@ -41,7 +41,7 @@ label{
 /* FORM */
 
 .form-container{
-    margin: 40px 33px 33px 33px;
+    margin: 40px 33px 200px 33px;
 }
 
 /* REQUIRED FIELD */
@@ -239,4 +239,177 @@ label{
 .activities-main-conference{
     margin-top: 0;
     width: 100vw;
+}
+
+/* PAYMENT INFO */
+
+.payment-info-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.payment-info-container > h2{
+    margin: 0;
+}
+
+.payment-info-total{
+    align-self: flex-end;
+}
+
+/* PAYMENT METHODS */
+
+.payment-top-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    height: 150px;
+}
+
+.payment-method-selection-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 25px;
+    width: 50%;
+}
+
+.payment-method-selection{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.method-selection{
+    height: 40px;
+}
+
+.card-number-container{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.card-number{
+    height: 40px;
+}
+
+.card-info-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.expiration-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiration-date-container{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    width: 53%;
+}
+
+.expiration-date{
+    height: 40px;
+}
+
+.expiration-year-container{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    width: 43%;
+}
+
+.expiration-year{
+    height: 40px;
+}
+
+.zip-cvv-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zip-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 53%;
+}
+
+.zip{
+    height: 40px;
+}
+
+.cvv-container{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    width: 43%;
+}
+
+.cvv{
+    height: 40px;
+}
+
+.payment-bottom-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paypal-container{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px rgb(175, 166, 155) solid;
+    background: white;
+}
+
+.paypal-title{
+    margin: 0;
+}
+
+.paypal-text{
+    font-family: 'Trebuchet MS', 'sans-serif';
+    margin: 0;
+    font-size: 0.9em;
+    color: rgb(107, 107, 107);
+}
+
+.bitcoin-container{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px rgb(175, 166, 155) solid;
+    background: white;
+}
+
+.bitcoin-title{
+    margin: 0;
+}
+
+.bitcoin-text{
+    font-family: 'Trebuchet MS', 'sans-serif';
+    margin: 0;
+    font-size: 0.9em;
+    color: rgb(107, 107, 107);
+}
+
+/* REGISTER */
+
+.register{
+    border: none;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: #d63369;
+    font-family: "Comfortaa", cursive;
+    font-size: 1.6em;
+    font-weight: 800;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
 }
