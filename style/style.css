@@ -7,6 +7,9 @@ h1,h2,h3{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #faf6ed;
 }
 
@@ -20,9 +23,15 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 0;
+    width: 100%;
     background-color: #d8735d;
     padding: 20px;
+}
+
+.header-item{
+    width: 800px;
 }
 
 .header-text{
@@ -41,6 +50,7 @@ label{
 /* FORM */
 
 .form-container{
+    width: 900px;
     margin: 40px 33px 200px 33px;
 }
 
@@ -63,7 +73,7 @@ label{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     padding: 0;
     margin: 0;
 }
@@ -73,7 +83,7 @@ label{
 .basic-info-item > input{
     outline: none;
     border: 1px rgb(175, 166, 155) solid;
-    width: 280px;
+    width: 90%;
     height: 40px;
     padding: 0;
 }
@@ -108,7 +118,7 @@ label{
     outline: none;
     border: 1px rgb(175, 166, 155) solid;
     height: 43px;
-    width: 280px;
+    width: 90%;
 }
 
 /* T-SHIRT */
@@ -123,7 +133,7 @@ label{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 305px;
+    width: 80%;
     gap: 20px;
     padding: 0;
     margin: 0;
@@ -169,12 +179,16 @@ label{
     display: block;
 }
 
+.tshirt-info-design{
+    width: 50%;
+}
+
 .tshirt-info-design-label{
     margin-bottom: 10px;
 }
 
 .tshirt-info-design-select{
-    width: 200px;
+    width: 240px;
 }
 
 .tshirt-info-color-item{
@@ -194,7 +208,7 @@ label{
     outline: none;
     border: 1px rgb(175, 166, 155) solid;
     height: 40px;
-    width: 350px;
+    width: 90%;
 }
 
 /* ACTIVITIES  SECTION */
@@ -212,7 +226,7 @@ label{
 
 .activities-item{
     display: flex;
-    width: 40vw;
+    width: 45%;
     margin-top: 20px;
     gap: 10px;
     border: 1px rgb(175, 166, 155) solid;
